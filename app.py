@@ -52,4 +52,4 @@ contenedor_unido = f"""
 </div>
 """
 
-components.html(contenedor_unido, height=4800)
+components.html(contenedor_unido, height=5200)
