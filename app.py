@@ -32,6 +32,9 @@ with open("fig10.html", "r") as f:
     
 with open("fig12.html", "r") as f:
     grafica12 = f.read()
+
+with open("mayores.html", "r") as f:
+    grafica13 = f.read()
     
 contenedor_unido = f"""
 <div style="display: flex; flex-direction: column; gap: 10px;">
@@ -45,6 +48,7 @@ contenedor_unido = f"""
     <div>{grafica9}</div>
     <div>{grafica10}</div>
     <div>{grafica12}</div>
+    <div>{grafica13}</div>
 </div>
 """
 
