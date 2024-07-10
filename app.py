@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.title("Análisis de Trauma")
+st.title("Analysis for Hospital")
 
 with open("fig1.html", "r") as f:
     grafica1 = f.read()
